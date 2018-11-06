@@ -1,0 +1,18 @@
+@startuml
+
+class AVLTree{
+    - E: key
+    - int: balance
+    - int: height
+    - Node: left
+    - Node: right
+    - Node: parent
+    - Node: root
+
+    + getHeight(): int
+    + add(E word)
+    + contains(E word): boolean
+}
+
+
+@enduml
